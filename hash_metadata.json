@@ -1,0 +1,33 @@
+{
+  "name": "HASH Token",
+  "symbol": "$HASH",
+  "description": "A token for the HASH ecosystem.",
+  "seller_fee_basis_points": 500,  // Represents a 5% fee
+  "image": "https://example.com/hash_token_image.png",
+  "external_url": "https://example.com",
+  "attributes": [
+    {
+      "trait_type": "Token Type",
+      "value": "Utility"
+    },
+    {
+      "trait_type": "Network",
+      "value": "Solana"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://example.com/hash_token_image.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "YOUR_WALLET_ADDRESS",
+        "share": 100
+      }
+    ]
+  }
+}
